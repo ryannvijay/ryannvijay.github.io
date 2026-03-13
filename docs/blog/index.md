@@ -15,7 +15,7 @@ tags:
 I write about applied AI, open source, personal work, and building with LLMs.
 
 [:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--primary}
-
+<!--
 ## RAG and Retrieval Systems
 
 [Only 6 Evals](./posts/rag-only-6-evals.md) - that's all you need. [Predictions](./posts/rag-plusplus.md) explores where RAG is heading. [Improving RAG](./posts/rag-improving-rag.md) is the systematic process I use. [Levels of Complexity](./posts/rag-levels-of-rag.md) breaks down implementation layers. [Systematically Improving](./posts/systematically-improving-rag-raindrop.md) goes beyond error tracking.
@@ -47,7 +47,7 @@ I write about applied AI, open source, personal work, and building with LLMs.
 ## Personal Stories
 
 [Advice](./posts/advice.md) for those starting out. [Losing My Hands](./posts/hands-part-1.md) forced reinvention. [Learning to Learn](./posts/learning.md) across pottery, weightlifting, jiu jitsu, Rocket League. [Things](./posts/things.md) is a running list of what I'm using.
-
+-->
 ---
 
 ## Recent Posts

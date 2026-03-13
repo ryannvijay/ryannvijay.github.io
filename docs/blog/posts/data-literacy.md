@@ -7,7 +7,7 @@ comments: true
 date: 2024-06-02
 description: Explore 10 data literacy pitfalls AI engineers face and learn strategies
   to enhance data skills for impactful decision-making.
-draft: false
+draft: true
 tags:
   - data literacy
   - AI engineers

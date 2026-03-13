@@ -127,7 +127,7 @@ markdown_extensions:
 nav:
   - Home:
     - Introductions: 'index.md'
-    - User Manual: "user_manual.md"
+#    - User Manual: "user_manual.md"
     - Resume: "resume.md"
   - Projects:
     - Portfolio: 'projects/index.md'
