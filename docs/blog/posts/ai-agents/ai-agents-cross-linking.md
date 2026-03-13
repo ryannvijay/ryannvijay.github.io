@@ -5,7 +5,8 @@ categories:
   - Writing and Communication
   - Software Engineering
 comments: true
-date: 2099-01-06 # future date as a workaround to not publish the post
+date: 2024-01-06
+publish: false
 description: How I used AI agents to analyze 100+ blog posts and add 50+ strategic cross-links in just 30 minutes
 draft: false
 slug: ai-agents-cross-linking

@@ -1,5 +1,6 @@
 ---
 description: Books that have shaped my thinking on philosophy, business, and life.
+publish: false
 ---
 
 # Books
