@@ -172,6 +172,9 @@ plugins:
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"
       archive: true
+  - exclude:
+      glob:
+        - blog/posts/drafts/*
 extra:
   analytics:
     provider: google

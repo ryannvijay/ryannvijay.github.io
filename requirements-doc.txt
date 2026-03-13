@@ -5,5 +5,6 @@ mkdocstrings-python
 mkdocs-minify-plugin
 mkdocs-redirects
 mkdocs-rss-plugin
+mkdocs-exclude
 pillow
 cairosvg
