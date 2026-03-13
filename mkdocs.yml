@@ -4,7 +4,7 @@ site_description: >-
   Applied AI, RAG, and personal notes.
 # repo_name: blog
 # repo_url: https://github.com/ryannvijay/
-site_url: https://ryanvijay.github.io/
+site_url: https://ryannvijay.github.io/
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 Ryan Vijay 
 theme:
