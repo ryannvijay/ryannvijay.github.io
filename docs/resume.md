@@ -62,4 +62,4 @@ Bachelor of Chemical Engineering, 2011
 
 ---
 
-[:material-email: Contact (speaking/advisory)](mailto:ryannvijay@gmail.com){ .md-button .md-button--primary }
+[:material-email: Contact](mailto:ryannvijay@gmail.com){ .md-button .md-button--primary }

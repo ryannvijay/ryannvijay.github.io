@@ -1,9 +1,18 @@
-/* Custom colors - Indigo */
-[data-md-color-scheme="default"],
+/* Custom colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2F4A6D;
+  --md-primary-fg-color--light: #6B8BB6;
+  --md-primary-fg-color--dark: #1C2F47;
+
+  --md-accent-fg-color: #5B8DEF;
+}
+
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #103DC2;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark: #103DC2;
+  --md-primary-fg-color: #8CAFD8;
+  --md-primary-fg-color--light: #B7CDE8;
+  --md-primary-fg-color--dark: #4A6A93;
+
+  --md-accent-fg-color: #7AA2F7;
 }
 
 
