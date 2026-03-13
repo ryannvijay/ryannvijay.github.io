@@ -123,9 +123,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 nav:
-  - Home:
-    - Introductions: 'index.md'
-#    - User Manual: "user_manual.md"
+  - Home: index.md
   - Projects:
     - Portfolio: 'projects/index.md'
     - Project One: 'projects/project1.md'
@@ -135,8 +133,7 @@ nav:
     - Project Five: 'projects/project5.md'
   - Blog:
     - blog/index.md
-  - Resume:
-    - resume.md
+  - Resume: resume.md
 plugins:
 #  - social
   - rss:
