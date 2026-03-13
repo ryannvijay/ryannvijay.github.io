@@ -14,8 +14,8 @@ tags:
 
 I write about applied AI, open source, personal work, and building with LLMs.
 
-[:material-email: Subscribe to my Newsletter](https://dub.link/S4G5XGs){.md-button .md-button--primary}
-[:material-twitter: Follow me on X](https://x.com/jxnlco){.md-button .md-button--secondary}
+[:fontawesome-brands-github: Follow me on GitHub](https://github.com/ryannvijay){.md-button .md-button--primary}
+[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--secondary}
 
 ## RAG and Retrieval Systems
 

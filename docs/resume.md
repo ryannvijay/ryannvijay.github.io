@@ -1,16 +1,16 @@
 ---
-description: Ryan Vijay - Staff ML Engineer, AI Consultant, Creator of Instructor. Looking for my next 4-5 year project.
+description: Ryan Vijay - AI and Analytics Manager. Expert in AI Adoption, Analytics, and Leadership.
 ---
 
 # Ryan Vijay
 
-**Staff ML Engineer | AI Consultant | Open Source Creator**
+**AI and Analytics Manager | AI Consultant**
 
-[:material-email: jason@jxnl.co](mailto:jason@jxnl.co) | [:fontawesome-brands-github: jxnl](https://github.com/jxnl) | [:fontawesome-brands-x-twitter: jxnlco](https://twitter.com/jxnlco) | [:fontawesome-brands-linkedin: jxnlco](https://linkedin.com/in/jxnlco)
+[:material-email: ryannvijay@gmail.com](mailto:ryannvijay@gmail.com) | [:fontawesome-brands-github: ryannvijay](https://github.com/ryannvijay) | [:fontawesome-brands-linkedin: ryan-vijay](https://linkedin.com/in/ryan-vijay)
 
 ---
 
-Former Staff MLE at Stitch Fix. Creator of [Instructor](https://python.useinstructor.com/) (6M+ monthly downloads, 11k+ stars, cited by OpenAI). 10+ years building AI systems at scale. I help companies establish thought leadership in AI, build evaluation frameworks, and drive developer adoption.
+AI and Analytics Manager with 15 years of experience across analytics, data, and business improvement. I build data roadmaps, lead cross-functional delivery, and turn business questions into clear, trusted insight using SQL, Tableau, Power BI, Python, and cloud data tools.
 
 **Looking for my next 4-5 year project.**
 
@@ -18,56 +18,49 @@ Former Staff MLE at Stitch Fix. Creator of [Instructor](https://python.useinstru
 
 ## Experience
 
-### Founder, 567 Studios
+### Analytics Manager, BMW Financial Services
 
-**2023 - Present**
+**Jan 2023 – Present | Melbourne, Australia**
 
-- Work with Seed to Series B companies on AI best practices: RAG, Context Engineering, Evals
-- Consulting clients: Zapier, HubSpot, Limitless, Weights & Biases, Modal Labs, Timescale, Pydantic
-- Built training programs on Maven for engineers from OpenAI, Anthropic, Google, Microsoft, Amazon, Netflix
-- Designed workflow automations and fine-tuned embedding models across industries
+- Developed and executed AI and Analytics solutions aligned with business objectives and customer value propositions.
+- Led discovery workshops with functional leaders to identify Analytics opportunities and co-create implementation roadmaps.
+- Built robust business cases to demonstrate ROI of analytics initiatives.
+- Championed AI adoption across organisation by designing engaging learning experiences and translating technical concepts into practical, accessible use cases.
+- Led initiatives for automation solutions across departments, delivering 30-40% efficiency improvements.
 
-### Staff Machine Learning Engineer, Stitch Fix
+### Data Scientist, Yarra Valley Water
 
-**2018 - 2023**
+**Jun 2020 – Dec 2022 | Melbourne, Australia**
 
-- Built multimodal embedding system using ResNet-50 and CLIP+GPT-3 integration
-- Designed Flight framework handling 350M+ daily requests with 80% internal adoption
-- Built styling chatbots with DaVinci, improving recommendation quality by 40%
-- Technical lead for team of 6-7 engineers and data scientists
+- Led advanced analytics consulting to solve complex business challenges, partnering with senior stakeholders.
+- Provided measurement insights and analytics to inform strategic pricing decisions.
+- Mentored and developed analytics team capabilities, establishing measurement best practices and governance frameworks.
 
-### Data Scientist, Meta (Facebook)
+### Senior Data Analyst, Medibank
 
-**2017**
+**Jan 2019 – Jun 2020 | Melbourne, Australia**
 
-- Developed ML algorithms detecting harmful content with 95%+ accuracy at 2B+ user scale
-- Built real-time monitoring dashboards, reducing escalation time by 50%
-
----
-
-## Open Source
-
-**[Instructor](https://python.useinstructor.com/)** - Python library for structured outputs from LLMs
-
-- 6M+ monthly downloads, 11,000+ GitHub stars
-- Cited by OpenAI as inspiration for their structured output feature
+- Provided analysis with respect to new methods of healthcare funding and price changes.
+- Developed interactive dashboards for various stakeholders to support healthcare product strategies.
 
 ---
 
 ## Education
 
-**University of Waterloo** - Bachelor of Mathematics
+**Melbourne Business School – University of Melbourne**
+Master of Business Analytics, 2018
 
-Computational Mathematics & Statistics | 2012-2017
-
----
-
-## Publications
-
-Liu, J., Weitzman, E.R., & Chunara, R. (2017). Assessing behavior stage progression from social media data. _CSCW 2017_, 1320-1333.
-
-Rehman, N., Liu, J., & Chunara, R. (2016). Propensity score matching for vaccination sentiment analysis. _AAAI Spring Symposium_.
+**National University of Singapore**
+Bachelor of Chemical Engineering, 2011
 
 ---
 
-[:material-email: Contact (speaking/advisory)](mailto:jason@jxnl.co){ .md-button .md-button--primary }
+## Certifications
+
+- **Microsoft Copilot Studio** - The Copilot Studio Masterclass
+- **AI Engineer MLOps Track**: Deploy Gen AI & Agentic AI at Scale
+- **AI Engineer Core Track**: LLM Engineering, RAG, Agents
+
+---
+
+[:material-email: Contact (speaking/advisory)](mailto:ryannvijay@gmail.com){ .md-button .md-button--primary }

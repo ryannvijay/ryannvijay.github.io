@@ -21,8 +21,8 @@ tags:
 
 I'm really not qualified to give advice.
 
-But enough people DM'd me on Twitter, so here it is. I don't have to answer the same question over and over again.
-After some more editing I realised that I am actually writing this for my younger sister Katherine.
+But enough people reached out, so here it is. I don't have to answer the same question over and over again.
+After some more editing I realised that I am actually writing this for my loved ones.
 
 !!! warning "Don't read this if you're seeking a nuanced perspective"
 
@@ -62,10 +62,9 @@ When I hire someone, I simply want to know that they are capable of taking charg
 
 !!! note "Links that are everywhere on my digital footprint"
 
-    - [Contributing to jxnl/instructor](https://instructor-ai.github.io/instructor/contributing/)
-    - [Contributing to jxnl/instructor-js](https://instructor-ai.github.io/instructor-js/contributing/)
-    - [Issues of jxnl/instructor](https://github.com/instructor-ai/instructor/issues)
-    - [Issues of jxnl/instructor-js](https://github.com/instructor-ai/instructor-js/issues)
+    - [Contact Ryan Vijay](mailto:ryannvijay@gmail.com)
+    - [Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/)
+    - [Follow on GitHub](https://github.com/ryannvijay)
 
 There have been many times people will DM me offering to help while I am writing a blog post. I'll link the blog PR and say 'let me know what you think'. No comments, and then I get ghosted?
 
@@ -319,4 +318,4 @@ So attend to the things that matter, and make sure to spend your arrogance while
 
 ---
 
-If you like the like content give me a follow on [twitter](https://twitter.com/jxnlco) or even [buy me a coffee](https://www.buymeacoffee.com/jxnl).
+If you like this content, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ryan-vijay/) or follow my work on [GitHub](https://github.com/ryannvijay).

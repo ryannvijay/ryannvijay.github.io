@@ -101,8 +101,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: jxnl 
-      repo: instructor
+      user: ryannvijay
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -181,7 +180,7 @@ extra:
 #    - icon: fontawesome/solid/rss
 #      link: feed_rss_created.xml
 #    - icon: fontawesome/brands/github
-#      link: https://github.com/jxnl
+#      link: https://github.com/ryannvijay
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ryan-vijay/
 extra_css:
