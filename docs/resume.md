@@ -12,8 +12,6 @@ description: Ryan Vijay - AI and Analytics Manager. Expert in AI Adoption, Analy
 
 AI and Analytics Manager with 15 years of experience across analytics, data, and business improvement. I build data roadmaps, lead cross-functional delivery, and turn business questions into clear, trusted insight using SQL, Tableau, Power BI, Python, and cloud data tools.
 
-**Looking for my next 4-5 year project.**
-
 ---
 
 ## Experience
