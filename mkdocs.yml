@@ -171,7 +171,6 @@ plugins:
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"
       archive: true
-      archive_format: yyyy
 extra:
   analytics:
     provider: google
