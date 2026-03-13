@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# AI Assistant and reference
+.claude/
+.ref/
+CLAUDE.md
+AGENTS.md
+
+# MkDocs build directory (by default it's called site)
+site/
+
+# MkDocs Material cache
+.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db

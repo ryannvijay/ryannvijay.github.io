@@ -1,0 +1,18 @@
+[project]
+name = "blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "dub>=0.23.1",
+    "mkdocs-material>=9.6.14",
+    "openai>=1.88.0",
+    "python-dotenv>=1.0.1",
+    "typer>=0.16.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=3.0.0",
+]
