@@ -6,7 +6,8 @@ description: Ryan Vijay - AI and Analytics Manager. Expert in AI Adoption, Analy
 
 **AI and Analytics Manager | AI Consultant**
 
-[:material-email: ryannvijay@gmail.com](mailto:ryannvijay@gmail.com) | [:fontawesome-brands-github: ryannvijay](https://github.com/ryannvijay) | [:fontawesome-brands-linkedin: ryan-vijay](https://linkedin.com/in/ryan-vijay)
+[:material-email: ryannvijay@gmail.com](mailto:ryannvijay@gmail.com) | [:fontawesome-brands-linkedin: ryan-vijay](https://linkedin.com/in/ryan-vijay)
+<!-- [:fontawesome-brands-github: ryannvijay](https://github.com/ryannvijay) -->
 
 ---
 

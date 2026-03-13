@@ -1,7 +1,7 @@
 site_name: Ryan Vijay
 site_author: Ryan Vijay
 site_description: >-
-  Applied AI, RAG, and personal notes.
+  Applied AI, Analytics, and personal notes.
 # repo_name: blog
 # repo_url: https://github.com/ryannvijay/
 site_url: https://ryannvijay.github.io/
@@ -128,7 +128,6 @@ nav:
   - Home:
     - Introductions: 'index.md'
 #    - User Manual: "user_manual.md"
-    - Resume: "resume.md"
   - Projects:
     - Portfolio: 'projects/index.md'
     - Project One: 'projects/project1.md'
@@ -138,6 +137,8 @@ nav:
     - Project Five: 'projects/project5.md'
   - Blog:
     - blog/index.md
+  - Resume:
+    - Resume: "resume.md"
 plugins:
 #  - social
   - rss:
