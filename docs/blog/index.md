@@ -14,8 +14,7 @@ tags:
 
 I write about applied AI, open source, personal work, and building with LLMs.
 
-[:fontawesome-brands-github: Follow me on GitHub](https://github.com/ryannvijay){.md-button .md-button--primary}
-[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--secondary}
+[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--primary}
 
 ## RAG and Retrieval Systems
 
