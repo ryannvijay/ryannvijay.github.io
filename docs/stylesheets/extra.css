@@ -116,3 +116,8 @@
   border: none;
   border-top: 1px solid var(--md-default-fg-color--lightest);
 }
+
+/* Bold active sidebar links */
+.md-nav__link--active {
+  font-weight: 700;
+}
