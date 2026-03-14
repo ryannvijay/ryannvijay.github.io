@@ -11,7 +11,7 @@ theme:
   name: material
   custom_dir: overrides
   icon:
-    logo: fontawesome/solid/hexagon-nodes
+    logo: fontawesome/solid/star-of-life
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
