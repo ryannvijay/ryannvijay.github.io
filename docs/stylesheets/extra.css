@@ -1,29 +1,59 @@
-/* Custom colors */
+/* =====================
+   GOOGLE FONTS — Claude-inspired typography
+   ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+/* Apply fonts */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  font-family: 'Lora', serif;   /* Claude's marketing site uses a warm serif for headings */
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* =====================
+   LIGHT MODE
+   ===================== */
 [data-md-color-scheme="default"] {
-  /* Claude light — warm cream background */
-  --md-primary-fg-color: #3d3a35;        /* dark warm charcoal for header */
+  --md-primary-fg-color:        #3d3a35;
   --md-primary-fg-color--light: #6b6560;
-  --md-primary-fg-color--dark: #1f1d1a;
-
-  --md-accent-fg-color: #c96442;         /* Claude's coral/terracotta */
-
-  --md-default-bg-color: #f0ede8;        /* warm off-white */
-  --md-default-fg-color: #2b2825;        /* warm near-black text */
+  --md-primary-fg-color--dark:  #1f1d1a;
+  --md-accent-fg-color:         #c96442;
+  --md-default-bg-color:        #f0ede8;
+  --md-default-fg-color:        #2b2825;
   --md-default-fg-color--light: #6b6560;
   --md-default-fg-color--lightest: #d4cfc9;
 }
 
+/* Force header colour — variables alone don't always win */
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #3d3a35;
+}
+
+/* =====================
+   DARK MODE
+   ===================== */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #8B3A2A;        /* dark terracotta — white text pops clearly */
+  --md-primary-fg-color:        #8B3A2A;
   --md-primary-fg-color--light: #a84832;
-  --md-primary-fg-color--dark: #5c2418;
-
-  --md-accent-fg-color: #d4714a;         /* lighter coral for links/accents */
-
-  --md-default-bg-color: #2b2c26;
-  --md-default-fg-color: #e8e4de;
+  --md-primary-fg-color--dark:  #5c2418;
+  --md-accent-fg-color:         #d4714a;
+  --md-default-bg-color:        #2b2c26;
+  --md-default-fg-color:        #e8e4de;
   --md-default-fg-color--light: #a09a93;
   --md-default-fg-color--lightest: #3d3e37;
+}
+
+/* Force header colour */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #8B3A2A;
 }
 /* 
 [data-md-color-scheme="default"] {
