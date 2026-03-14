@@ -1,5 +1,33 @@
 /* Custom colors */
 [data-md-color-scheme="default"] {
+  /* Claude light — warm cream background */
+  --md-primary-fg-color: #3d3a35;        /* dark warm charcoal for header */
+  --md-primary-fg-color--light: #6b6560;
+  --md-primary-fg-color--dark: #1f1d1a;
+
+  --md-accent-fg-color: #c96442;         /* Claude's coral/terracotta */
+
+  --md-default-bg-color: #f0ede8;        /* warm off-white */
+  --md-default-fg-color: #2b2825;        /* warm near-black text */
+  --md-default-fg-color--light: #6b6560;
+  --md-default-fg-color--lightest: #d4cfc9;
+}
+
+[data-md-color-scheme="slate"] {
+  /* Claude dark — olive charcoal background */
+  --md-primary-fg-color: #2b2c26;        /* Claude's dark olive header */
+  --md-primary-fg-color--light: #3d3e37;
+  --md-primary-fg-color--dark: #1a1b16;
+
+  --md-accent-fg-color: #d4714a;         /* coral accent, slightly warmer for dark */
+
+  --md-default-bg-color: #2b2c26;        /* Claude's signature dark olive */
+  --md-default-fg-color: #e8e4de;        /* warm off-white text */
+  --md-default-fg-color--light: #a09a93;
+  --md-default-fg-color--lightest: #3d3e37;
+}
+/* 
+[data-md-color-scheme="default"] {
   --md-primary-fg-color: #2F4A6D;
   --md-primary-fg-color--light: #6B8BB6;
   --md-primary-fg-color--dark: #1C2F47;
@@ -16,7 +44,7 @@
 
   --md-default-bg-color: #1a1f2e;
 }
-
+*/
 
 /* Hero stats */
 .hero-stats {
