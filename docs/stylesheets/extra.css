@@ -62,13 +62,13 @@ body {
 [data-md-color-scheme="slate"] .md-post__meta a,
 [data-md-color-scheme="slate"] .md-nav__link,
 [data-md-color-scheme="slate"] .md-tags a {
-  color: #c49a3c;
+  color: #d4714a;
 }
 
 /* Keep hover slightly brighter */
 [data-md-color-scheme="slate"] .md-content a:not(.md-button):hover,
 [data-md-color-scheme="slate"] .md-post__title a:hover {
-  color: #d4b86a;
+  color: #e8916a;
 }
 /* 
 [data-md-color-scheme="default"] {
