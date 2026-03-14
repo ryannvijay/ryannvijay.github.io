@@ -14,15 +14,14 @@
 }
 
 [data-md-color-scheme="slate"] {
-  /* Claude dark — olive charcoal background */
-  --md-primary-fg-color: #2b2c26;        /* Claude's dark olive header */
-  --md-primary-fg-color--light: #3d3e37;
-  --md-primary-fg-color--dark: #1a1b16;
+  --md-primary-fg-color: #8B3A2A;        /* dark terracotta — white text pops clearly */
+  --md-primary-fg-color--light: #a84832;
+  --md-primary-fg-color--dark: #5c2418;
 
-  --md-accent-fg-color: #d4714a;         /* coral accent, slightly warmer for dark */
+  --md-accent-fg-color: #d4714a;         /* lighter coral for links/accents */
 
-  --md-default-bg-color: #2b2c26;        /* Claude's signature dark olive */
-  --md-default-fg-color: #e8e4de;        /* warm off-white text */
+  --md-default-bg-color: #2b2c26;
+  --md-default-fg-color: #e8e4de;
   --md-default-fg-color--light: #a09a93;
   --md-default-fg-color--lightest: #3d3e37;
 }
