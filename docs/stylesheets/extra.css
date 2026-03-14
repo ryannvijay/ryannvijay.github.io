@@ -40,20 +40,21 @@ body {
    DARK MODE
    ===================== */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #7a3225;
-  --md-primary-fg-color--light: #9a4535;
-  --md-primary-fg-color--dark:  #521f16;
-  --md-accent-fg-color:         #d4714a;
-  --md-default-bg-color:        #2b2c26;
-  --md-default-fg-color:        #e8e4de;
-  --md-default-fg-color--light: #a09a93;
-  --md-default-fg-color--lightest: #3d3e37;
+  --md-primary-fg-color:          #7a4530;
+  --md-primary-fg-color--light:   #9a5d42;
+  --md-primary-fg-color--dark:    #522d1e;
+  --md-accent-fg-color:           #d4714a;
+  --md-default-bg-color:          #1c1b18;
+  --md-default-fg-color:          #e8e4de;
+  --md-default-fg-color--light:   #a09a93;
+  --md-default-fg-color--lightest: #2e2d2a;  /* ← slightly darker to suit new bg */
+  --md-code-bg-color:             #2a2926;   /* ← explicit, sits just above the page bg */
 }
 
 /* Force header colour */
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
-  background-color: #7a3225;
+  background-color: #7a4530;   /* ← was #7a3225 */
 }
 
 /* Fix all resting link colours in dark mode */
