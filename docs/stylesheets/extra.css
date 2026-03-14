@@ -56,9 +56,19 @@ body {
   background-color: #7a3225;
 }
 
-[data-md-color-scheme="slate"] .md-content a,
-[data-md-color-scheme="slate"] .md-nav__link--active {
-  color: #d4714a;
+/* Fix all resting link colours in dark mode */
+[data-md-color-scheme="slate"] .md-content a:not(.md-button),
+[data-md-color-scheme="slate"] .md-post__title a,
+[data-md-color-scheme="slate"] .md-post__meta a,
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-tags a {
+  color: #c49a3c;
+}
+
+/* Keep hover slightly brighter */
+[data-md-color-scheme="slate"] .md-content a:not(.md-button):hover,
+[data-md-color-scheme="slate"] .md-post__title a:hover {
+  color: #d4b86a;
 }
 /* 
 [data-md-color-scheme="default"] {
