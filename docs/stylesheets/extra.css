@@ -53,7 +53,7 @@ body {
 /* Force header colour */
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
-  background-color: #8B3A2A;
+  background-color: #7a3225;
 }
 /* 
 [data-md-color-scheme="default"] {
