@@ -40,9 +40,9 @@ body {
    DARK MODE
    ===================== */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #8B3A2A;
-  --md-primary-fg-color--light: #a84832;
-  --md-primary-fg-color--dark:  #5c2418;
+  --md-primary-fg-color:        #7a3225;
+  --md-primary-fg-color--light: #9a4535;
+  --md-primary-fg-color--dark:  #521f16;
   --md-accent-fg-color:         #d4714a;
   --md-default-bg-color:        #2b2c26;
   --md-default-fg-color:        #e8e4de;
