@@ -55,6 +55,11 @@ body {
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: #7a3225;
 }
+
+[data-md-color-scheme="slate"] .md-content a,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #d4714a;
+}
 /* 
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #2F4A6D;
