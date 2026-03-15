@@ -8,7 +8,7 @@ comments: true
 date: 2026-03-15
 description: The five skills that make data analysts irreplaceable in 2026 are not
   technical. Here is what to prioritise whether you are hiring or building your career.
-draft: true
+draft: false
 slug: ai-proof-data-analyst-skills-2026
 tags:
   - data analyst skills
