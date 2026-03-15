@@ -107,6 +107,6 @@ Most teams discover all three problems in this exercise. That is fine. The diagn
 
 Part 2 of this series covers the fix: a five-layer stack that turns a dashboard factory into a decision engine.
 
-[Connect with me on LinkedIn](https://linkedin.com/in/ryannvijay){ .md-button }
+[Connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay){ .md-button }
 
 P.S. The three questions above take less than an hour. Most leaders already know the answers. They just have not written them down yet.

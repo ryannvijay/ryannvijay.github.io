@@ -103,6 +103,6 @@ Three things worth doing this week:
 
 The skills that compound over the next five years won't be the ones AI is getting better at. They will be the ones that require sitting in rooms, reading silences, and knowing when the data is correct but the answer is still wrong.
 
-[Connect with me on LinkedIn](https://linkedin.com/in/ryannvijay){ .md-button }
+[Connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay){ .md-button }
 
 P.S. The Google ad example is usually cited as a creative failure. I see it as an analytics problem: the team that greenlit it was missing someone whose job was to ask "does this feel right to a human?" That skill is worth having on every team.

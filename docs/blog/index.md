@@ -16,7 +16,7 @@ tags:
 
 Practical takes on AI adoption, analytics leadership, and what actually works when you're building with data in enterprise environments. Written by someone who does the work, not just writes about it.
 
-[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--primary}
+[:fontawesome-brands-linkedin: Connect on LinkedIn](https://linkedin.com/in/ryan-vijay){.md-button .md-button--primary}
 
 ---
 

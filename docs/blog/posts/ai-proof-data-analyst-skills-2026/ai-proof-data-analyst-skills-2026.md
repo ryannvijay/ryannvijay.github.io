@@ -143,6 +143,6 @@ The five skills that matter now are domain knowledge, personal narrative, proble
 3. **Before your next analysis**, answer the three problem framing questions first. Train yourself to define the decision before touching the data.
 4. **Record yourself** presenting an analysis. Watch it back. Do this once a week until it stops being painful.
 
-[Connect with me on LinkedIn](https://linkedin.com/in/ryannvijay){ .md-button }
+[Connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay){ .md-button }
 
 P.S. If you are a hiring manager, try flipping these five skills into your interview rubric. You will spend less time evaluating SQL syntax and more time finding analysts who can actually move your business forward.

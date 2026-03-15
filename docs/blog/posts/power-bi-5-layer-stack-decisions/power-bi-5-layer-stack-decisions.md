@@ -132,6 +132,6 @@ That is the pattern. Same platform, completely different outcomes, because the l
 
 If you missed Part 1 of this series, it covers the three failure modes that kill most Power BI deployments before they ever reach this framework.
 
-[Connect with me on LinkedIn](https://linkedin.com/in/ryannvijay){ .md-button }
+[Connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay){ .md-button }
 
 P.S. The before/after numbers in this article are drawn from composite experience across multiple enterprise environments. The pattern is consistent across industries. Your deployment will produce its own version of them.

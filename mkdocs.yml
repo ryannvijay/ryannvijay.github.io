@@ -182,7 +182,7 @@ extra:
 #    - icon: fontawesome/brands/github
 #      link: https://github.com/ryannvijay
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ryan-vijay/
+      link: https://linkedin.com/in/ryan-vijay
 extra_css:
   - stylesheets/extra.css
 extra_javascript:

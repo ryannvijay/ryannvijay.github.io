@@ -8,7 +8,7 @@ I'm an Analytics Manager who has spent 15 years turning data into business outco
 
 I write about AI adoption, analytics leadership, and the practical side of building with data and AI in enterprise environments. No hype, just what I've learnt from doing the work.
 
-[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/ryan-vijay/){.md-button .md-button--primary}
+[:fontawesome-brands-linkedin: Connect on LinkedIn](https://linkedin.com/in/ryan-vijay){.md-button .md-button--primary}
 
 ## Popular Posts
 

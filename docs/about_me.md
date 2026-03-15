@@ -10,7 +10,7 @@ That pull eventually led me to a Master of Business Analytics at Melbourne Busin
 
 Over 15 years I've worked across banking, insurance, water utilities, engineering consulting, and automotive financial services. I've led analytics teams, built data foundations, and helped organisations make sense of their data. When ChatGPT launched in late 2022, I started exploring generative AI seriously. I haven't stopped since. Today I build with Claude Code, RAG systems, and agentic AI workflows, both in my day job at BMW Financial Services and in personal projects.
 
-I write about what I learn along the way: AI adoption, analytics leadership, and the practical side of building with data in enterprise environments. If any of it is useful to you, [connect with me on LinkedIn](https://www.linkedin.com/in/ryan-vijay/).
+I write about what I learn along the way: AI adoption, analytics leadership, and the practical side of building with data in enterprise environments. If any of it is useful to you, [connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay).
 
 ---
 
