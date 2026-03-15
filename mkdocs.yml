@@ -130,7 +130,6 @@ nav:
     - Project Two: 'projects/project2.md'
     - Project Three: 'projects/project3.md'
     - Project Four: 'projects/project4.md'
-    - Project Five: 'projects/project5.md'
   - Blog:
     - blog/index.md
   - Resume: resume.md
