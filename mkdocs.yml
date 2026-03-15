@@ -2,10 +2,10 @@ site_name: Ryan Vijay
 site_author: Ryan Vijay
 site_description: >-
   Applied AI, Analytics, and personal notes.
-repo_name: ryannvijay/ryannvijay.github.io
-repo_url: https://github.com/ryannvijay/ryannvijay.github.io
+# repo_name: ryannvijay/ryannvijay.github.io
+# repo_url: https://github.com/ryannvijay/ryannvijay.github.io
 site_url: https://ryannvijay.github.io/
-edit_uri: edit/main/docs/
+edit_uri: https://github.com/ryannvijay/ryannvijay.github.io/edit/main/docs/
 copyright: Copyright &copy; 2024 Ryan Vijay 
 theme:
   name: material
