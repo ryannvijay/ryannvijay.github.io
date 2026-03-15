@@ -33,7 +33,7 @@ Here are the five that separate analysts who thrive from analysts who get replac
 
 ## The Generic Data Analyst Role Is Disappearing
 
-LinkedIn and Business Insider both reported a [significant decline in generic data analyst postings](https://www.businessinsider.com/data-analyst-jobs-decline-ai-2024) through 2023 and 2024. The roles did not vanish. They evolved.
+LinkedIn and Business Insider both reported a [significant decline in generic data analyst postings](https://www.businessinsider.com/gruesome-tech-jobs-data-scientists-analytics-indeed-2025-11) through 2023 and 2024. The roles did not vanish. They evolved.
 
 Look at what replaced them: insights manager, content strategy analyst, operations and people analyst. These titles signal a shift. Companies stopped hiring for a list of tools and started hiring for business capabilities.
 
@@ -146,27 +146,3 @@ The five skills that matter now are domain knowledge, personal narrative, proble
 [Connect with me on LinkedIn](https://linkedin.com/in/ryannvijay){ .md-button }
 
 P.S. If you are a hiring manager, try flipping these five skills into your interview rubric. You will spend less time evaluating SQL syntax and more time finding analysts who can actually move your business forward.
-
----
-
-## Frequently Asked Questions
-
-### What are the most important skills for data analysts in 2026?
-
-The five most important skills are domain knowledge, personal narrative, problem framing, data storytelling, and analytical judgement. These are the capabilities that AI cannot replicate and that employers increasingly prioritise over technical tool proficiency alone.
-
-### Will AI replace data analysts?
-
-AI will replace analysts whose entire value is writing queries and building dashboards. It will not replace analysts who bring domain expertise, business context, and the judgement to decide what questions to ask in the first place. The role is evolving, not disappearing.
-
-### How do I stand out as a data analyst when AI can write SQL?
-
-Focus on the skills AI cannot do for you: understanding which metrics matter in your industry, framing the right business question before touching data, and presenting findings in a way that drives decisions. Technical skills are now table stakes, not differentiators.
-
-### What should hiring managers look for when evaluating analyst candidates?
-
-Look for domain knowledge (can they navigate an industry dataset without a data dictionary?), problem framing (do they ask clarifying questions before analysing?), and storytelling (can they explain an insight in under two minutes?). These predict on-the-job performance better than SQL tests.
-
-### How do I build analytical judgement without on-the-job experience?
-
-Practise with real, messy datasets where you have to make choices about scope, approach, and trade-offs. For portfolio projects, create realistic business context with specific stakeholders and deadlines. Use AI as a sparring partner to challenge your decisions. The goal is not to find the "right" answer but to defend why your approach was reasonable.
