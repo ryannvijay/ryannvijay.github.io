@@ -20,7 +20,7 @@ A selection of projects from my work at BMW Financial Services, where I lead ana
 
     [:octicons-arrow-right-24: View Details](project2.md)
 
--   :material-chart-line:{ .lg .middle } __Real-Time CIC Dashboard__
+-   :material-chart-line:{ .lg .middle } __Real-Time Customer Interactions Dashboard__
 
     ---
 
