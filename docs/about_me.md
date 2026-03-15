@@ -14,13 +14,13 @@ I write about what I learn along the way: AI adoption, analytics leadership, and
 
 ---
 
-# How I Work
+## How I Work
 
 A user manual, of sorts. How to work with me effectively, and what to expect.
 
 ---
 
-## What I Value
+### What I Value
 
 - **Constant learning and growth** - I'm driven by the need to learn continuously. I expect the same from my team.
 - **Move fast and break things** - Execute fast. If you're wrong, we can fix it later. Don't wait for approval.
@@ -31,7 +31,7 @@ A user manual, of sorts. How to work with me effectively, and what to expect.
 
 ---
 
-## Pet Peeves
+### Pet Peeves
 
 - **Silence** - Not getting updates makes me anxious. "Working on this" or "I'm blocked here" are good messages.
 - **Context switching** - Remind me where things are when you update me. I juggle a lot, and a one-line refresher goes a long way.
@@ -39,7 +39,7 @@ A user manual, of sorts. How to work with me effectively, and what to expect.
 
 ---
 
-## How I Prioritise
+### How I Prioritise
 
 - **Impact first** - I rank work by business impact, not by who asked loudest. If something doesn't move the needle, it waits.
 - **Explicit tradeoffs** - If everything is urgent, nothing is. I make tradeoffs visible and will push back on scope creep to protect the team's focus.
@@ -47,7 +47,7 @@ A user manual, of sorts. How to work with me effectively, and what to expect.
 
 ---
 
-## My Leadership Approach
+### My Leadership Approach
 
 - **Autonomy with context** - I give people the direction and the why, then get out of the way. I don't manage by instruction.
 - **Hands-on** - I'm not a manager who only reviews slides. I build things, write code, and stay close to the detail.
