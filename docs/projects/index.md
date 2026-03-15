@@ -1,47 +1,39 @@
-# My Projects
+# Projects
 
-Welcome to my portfolio. Here are some of the key projects I've worked on recently.
+A selection of projects from my work at BMW Financial Services, where I lead analytics initiatives, drive AI adoption, and build data foundations that deliver measurable business outcomes.
 
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } __Project One__
+-   :material-robot:{ .lg .middle } __Agentic AI Migration__
 
     ---
 
-    A brief description of Project One. Focusing on AI implementation and system architecture.
+    Used an AI-assisted workflow to migrate legacy SQL reporting jobs to AWS Glue, cutting development time by 60-70%.
 
     [:octicons-arrow-right-24: View Details](project1.md)
 
--   :material-database:{ .lg .middle } __Project Two__
+-   :material-school:{ .lg .middle } __AI Enablement & Training Assistants__
 
     ---
 
-    A brief description of Project Two. Data pipeline engineering and flywheel optimization.
+    Designed workshops, built a champion network, and created department-specific training chat assistants to drive sustained AI adoption.
 
     [:octicons-arrow-right-24: View Details](project2.md)
 
--   :material-code-braces:{ .lg .middle } __Project Three__
+-   :material-chart-line:{ .lg .middle } __Real-Time CIC Dashboard__
 
     ---
 
-    A brief description of Project Three. Open source contributions and framework development.
+    Transformed customer service reporting from monthly to daily, contributing to a 30% uplift in Net Promoter Score.
 
     [:octicons-arrow-right-24: View Details](project3.md)
 
--   :material-chart-line:{ .lg .middle } __Project Four__
+-   :material-database:{ .lg .middle } __Reporting Modernisation__
 
     ---
 
-    A brief description of Project Four. Analytics management and business intelligence.
+    Replaced manual report runs with self-serve Tableau dashboards and source-of-truth datamarts for Sales and Marketing.
 
     [:octicons-arrow-right-24: View Details](project4.md)
-
--   :material-earth:{ .lg .middle } __Project Five__
-
-    ---
-
-    A brief description of Project Five. Web development and scalable infrastructure.
-
-    [:octicons-arrow-right-24: View Details](project5.md)
 
 </div>
