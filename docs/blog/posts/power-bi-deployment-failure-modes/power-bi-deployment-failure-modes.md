@@ -6,7 +6,7 @@ categories:
   - Analytics Leadership
 comments: true
 date: 2024-11-07
-description: Most Power BI deployments go live and quietly die. Three failure modes drive poor ROI: building for data not decisions, ungoverned metrics, and an adoption cliff nobody planned for.
+description: "Most Power BI deployments go live and quietly die. Three failure modes drive poor ROI: building for data not decisions, ungoverned metrics, and an adoption cliff nobody planned for."
 draft: false
 slug: power-bi-deployment-failure-modes
 tags:

@@ -40,7 +40,7 @@ jobs:
           uv pip install -r requirements-doc.txt
 
       - name: Build site
-        run: .venv/bin/mkdocs build
+        run: .venv/bin/mkdocs build --verbose
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
