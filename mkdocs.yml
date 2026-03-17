@@ -128,10 +128,10 @@ nav:
     - About me: about_me.md
   - Projects:
     - Portfolio: 'projects/index.md'
-    - Project One: 'projects/project1.md'
-    - Project Two: 'projects/project2.md'
-    - Project Three: 'projects/project3.md'
-    - Project Four: 'projects/project4.md'
+    - Agentic AI Migration: 'projects/project1.md'
+    - AI Enablement & Training Assistants: 'projects/project2.md'
+    - Real-Time Customer Interactions Dashboard: 'projects/project3.md'
+    - Reporting Modernisation: 'projects/project4.md'
   - Blog:
     - blog/index.md
   - Resume: resume.md
