@@ -11,7 +11,7 @@ body {
 .md-content h1,
 .md-content h2,
 .md-content h3 {
-  font-family: 'Lora', serif;   /* Claude's marketing site uses a warm serif for headings */
+  font-family: 'Lora', serif;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -20,41 +20,41 @@ body {
    LIGHT MODE
    ===================== */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color:        #3d3a35;
-  --md-primary-fg-color--light: #6b6560;
-  --md-primary-fg-color--dark:  #1f1d1a;
-  --md-accent-fg-color:         #c96442;
-  --md-default-bg-color:        #f0ede8;
-  --md-default-fg-color:        #2b2825;
-  --md-default-fg-color--light: #6b6560;
-  --md-default-fg-color--lightest: #d4cfc9;
+  --md-primary-fg-color:           #1B3C53;   /* deep navy — header, buttons */
+  --md-primary-fg-color--light:    #456882;   /* mid-blue — secondary surfaces */
+  --md-primary-fg-color--dark:     #0f2233;   /* darker navy — depth */
+  --md-accent-fg-color:            #234C6A;   /* slightly lighter navy — links/accent */
+  --md-default-bg-color:           #f6f3f0;   /* warm off-white, D2C1B6-influenced */
+  --md-default-fg-color:           #1a2830;   /* near-black with blue undertone */
+  --md-default-fg-color--light:    #4e6878;   /* muted blue-grey for secondary text */
+  --md-default-fg-color--lightest: #D2C1B6;   /* warm taupe — borders, dividers */
 }
 
-/* Force header colour — variables alone don't always win */
+/* Force header colour */
 [data-md-color-scheme="default"] .md-header,
 [data-md-color-scheme="default"] .md-tabs {
-  background-color: #3d3a35;
+  background-color: #1B3C53;
 }
 
 /* =====================
    DARK MODE
    ===================== */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:          #7a4530;
-  --md-primary-fg-color--light:   #9a5d42;
-  --md-primary-fg-color--dark:    #522d1e;
-  --md-accent-fg-color:           #d4714a;
-  --md-default-bg-color:          #1c1b18;
-  --md-default-fg-color:          #e8e4de;
-  --md-default-fg-color--light:   #a09a93;
-  --md-default-fg-color--lightest: #2e2d2a;  /* ← slightly darker to suit new bg */
-  --md-code-bg-color:             #2a2926;   /* ← explicit, sits just above the page bg */
+  --md-primary-fg-color:           #234C6A;   /* mid-navy — primary surfaces */
+  --md-primary-fg-color--light:    #456882;   /* lighter blue — hover states */
+  --md-primary-fg-color--dark:     #1B3C53;   /* deep navy — depth */
+  --md-accent-fg-color:            #89B8CE;   /* lightened blue — readable on dark */
+  --md-default-bg-color:           #131c24;   /* very dark navy-tinted black */
+  --md-default-fg-color:           #e6e2dd;   /* warm off-white body text */
+  --md-default-fg-color--light:    #8aaabb;   /* muted blue-grey for secondary text */
+  --md-default-fg-color--lightest: #1e2d38;   /* dark blue-tinted — borders/dividers */
+  --md-code-bg-color:              #192430;   /* dark navy — code blocks */
 }
 
 /* Force header colour */
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
-  background-color: #7a4530;   /* ← was #7a3225 */
+  background-color: #1B3C53;
 }
 
 /* Fix all resting link colours in dark mode */
@@ -63,33 +63,18 @@ body {
 [data-md-color-scheme="slate"] .md-post__meta a,
 [data-md-color-scheme="slate"] .md-nav__link,
 [data-md-color-scheme="slate"] .md-tags a {
-  color: #d4714a;
+  color: #89B8CE;
 }
 
 /* Keep hover slightly brighter */
 [data-md-color-scheme="slate"] .md-content a:not(.md-button):hover,
 [data-md-color-scheme="slate"] .md-post__title a:hover {
-  color: #e8916a;
-}
-/* 
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #2F4A6D;
-  --md-primary-fg-color--light: #6B8BB6;
-  --md-primary-fg-color--dark: #1C2F47;
-
-  --md-accent-fg-color: #5B8DEF;
+  color: #aacfdf;
 }
 
-[data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #1E3A5F;
-  --md-primary-fg-color--light: #2F5490;
-  --md-primary-fg-color--dark: #122338;
-
-  --md-accent-fg-color: #7AA2F7;
-
-  --md-default-bg-color: #1a1f2e;
-}
-*/
+/* =====================
+   COMPONENT STYLES
+   ===================== */
 
 /* Hero stats */
 .hero-stats {
