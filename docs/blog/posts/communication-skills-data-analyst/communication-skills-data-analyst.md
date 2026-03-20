@@ -26,6 +26,8 @@ tags:
 
 <!-- more -->
 
+![alt text](image.jpg)
+
 Most people entering data roles expect to spend most of their time with data. They are in for a surprise.
 
 I was. I started out thinking I would sit at a desk, run some queries, send tidy emails, and mostly get on with it. What I found instead was that almost nothing moved without communicating with someone first. Data access required asking the right person. Understanding what a business stakeholder actually needed required sitting in meetings. Delivering the output meant presenting findings to a room of people who expected clarity and confidence. None of that happens quietly.
