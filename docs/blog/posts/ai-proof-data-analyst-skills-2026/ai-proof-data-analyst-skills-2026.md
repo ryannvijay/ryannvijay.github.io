@@ -5,7 +5,7 @@ categories:
   - Analytics Leadership
   - Career and Growth
 comments: true
-date: 2026-03-15
+date: 2025-11-15
 description: The five skills that make data analysts irreplaceable in 2026 are not
   technical. Here is what to prioritise whether you are hiring or building your career.
 draft: false
