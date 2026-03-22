@@ -56,32 +56,20 @@ If that describes your skill, you do not need more rules. You need a better stru
 
 Here is the orchestration diagram (from the `frontend-slides` skill) that makes the structure obvious:
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│                     SKILL.md                            │
-│                  (The Orchestrator)                     │
-└─────┬─────────────────────────────────────────────┬─────┘
-      │                                             │
-      ▼ [MODE A: NEW]                               ▼ [MODE B: PPT]
-┌─────────────┐                              ┌─────────────┐
-│   Phase 1   │                              │   Phase 4   │
-│  Discovery  │                              │ PPT Extract │
-└──────┬──────┘                              └──────┬──────┘
-       │                                            │
-       └─────────────────────┬──────────────────────┘
-                             │
-                             ▼
-                      ┌─────────────┐   if needed    ┌──────────────────┐
-                      │   Phase 2   │ ─────────────▶ │ STYLE_PRESETS.md │
-                      │  Styling    │                └──────────────────┘
-                      └──────┬──────┘
-                             │
-                             ▼
-                      ┌─────────────┐   loads        ┌──────────────────┐
-                      │   Phase 3   │ ─────────────▶ │ viewport-base.css│
-                      │ Generation  │ ─────────────▶ │ html-template.md │
-                      └─────────────┘ ─────────────▶ │ animation-rules  │
-                                                     └──────────────────┘
+```mermaid
+flowchart TD
+    SKILL["SKILL.md\n(The Orchestrator)"]
+
+    SKILL -->|MODE A: NEW| P1["Phase 1\nDiscovery"]
+    SKILL -->|MODE B: PPT| P4["Phase 4\nPPT Extract"]
+
+    P1 --> P2
+    P4 --> P2
+
+    P2["Phase 2\nStyling"] -->|if needed| STYLE["STYLE_PRESETS.md"]
+    P2 --> P3["Phase 3\nGeneration"]
+
+    P3 -->|loads| FILES["viewport-base.css\nhtml-template.md\nanimation-rules"]
 ```
 
 Notice what it does not do. It does not dump every CSS rule, HTML template, and animation snippet into `SKILL.md`. It keeps the orchestrator as a map, then pulls in bulky modules right before the model has to generate.

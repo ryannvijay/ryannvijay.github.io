@@ -16,4 +16,3 @@ I write about AI adoption, analytics leadership, and the practical side of build
 - [Communication Is 50% of the Job in Data Roles. Here Is How to Do It Well.](blog/posts/communication-skills-data-analyst/communication-skills-data-analyst.md)
 - [How to Learn Tableau Fast: The 4 Concepts That Actually Matter](blog/posts/how-to-learn-tableau-fast/how-to-learn-tableau-fast.md)
 - [Data Analyst vs Data Scientist vs Data Engineer: Which One Does Your Organisation Actually Need?](blog/posts/data-analyst-vs-data-scientist-vs-data-engineer/data-analyst-vs-data-scientist-vs-data-engineer.md)
-- [How Data Analysts Can Use ChatGPT to Cut Hours of Repetitive Coding Each Week](blog/posts/chatgpt-for-data-analysts/chatgpt-for-data-analysts.md)
