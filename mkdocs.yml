@@ -56,21 +56,19 @@ theme:
     - search.suggest
     - toc.follow
   palette:
-    # Dark mode (Default)
-    - scheme: slate
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    # Light mode
+    # Light mode (Default)
     - scheme: default
-      accent: blue
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-  font:
-    text: Inter
-    code: Roboto Mono
+    # Dark mode
+    - scheme: slate
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font: false
 # Extensions
 markdown_extensions:
   - abbr
@@ -186,6 +184,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
+  - javascripts/enhancements.js
   - javascripts/mathjax.js
   - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

@@ -1,79 +1,397 @@
-/* =====================
-   GOOGLE FONTS — Claude-inspired typography
-   ===================== */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+/* =====================================================
+   RYAN VIJAY BLOG — Custom Design System
+   MkDocs Material Enhancement
+   ===================================================== */
 
-/* Apply fonts */
-body {
-  font-family: 'Inter', sans-serif;
+/* =====================
+   FONTS
+   ===================== */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+:root {
+  --md-text-font: "Satoshi", sans-serif;
+  --md-code-font: "Roboto Mono", monospace;
 }
 
+body {
+  font-family: var(--md-text-font);
+}
+
+/* Heading hierarchy — Lora serif with dramatic sizing */
 .md-content h1,
 .md-content h2,
 .md-content h3 {
   font-family: 'Lora', serif;
+}
+
+.md-content h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.md-content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.md-content h3 {
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+/* Body text — comfortable reading */
+.md-typeset {
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 /* =====================
    LIGHT MODE
    ===================== */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color:           #1B3C53;   /* deep navy — header, buttons */
-  --md-primary-fg-color--light:    #456882;   /* mid-blue — secondary surfaces */
-  --md-primary-fg-color--dark:     #0f2233;   /* darker navy — depth */
-  --md-accent-fg-color:            #234C6A;   /* slightly lighter navy — links/accent */
-  --md-default-bg-color:           #f6f3f0;   /* warm off-white, D2C1B6-influenced */
-  --md-default-fg-color:           #1a2830;   /* near-black with blue undertone */
-  --md-default-fg-color--light:    #4e6878;   /* muted blue-grey for secondary text */
-  --md-default-fg-color--lightest: #D2C1B6;   /* warm taupe — borders, dividers */
+  --md-default-bg-color:           #FAF9F5;
+  --md-default-fg-color:           #141413;
+  --md-default-fg-color--light:    #4A4A47;
+  --md-default-fg-color--lightest: #D6D3CC;
+  /* Teal is primary — drives header, buttons, nav active states */
+  --md-primary-fg-color:           #2E6B62;
+  --md-primary-fg-color--light:    #4A8F85;
+  --md-primary-fg-color--dark:     #1F4F48;
+  /* Blue is accent/secondary */
+  --md-accent-fg-color:            #3D7AB5;
+  --rv-link:                       #2E6B62;   /* teal — content links */
+  --rv-primary:                    #2E6B62;   /* teal — buttons, key chrome */
+  --rv-secondary:                  #3D7AB5;   /* blue — hover, secondary accents */
 }
 
-/* Force header colour */
 [data-md-color-scheme="default"] .md-header,
 [data-md-color-scheme="default"] .md-tabs {
-  background-color: #1B3C53;
+  background-color: #2E6B62;
 }
 
 /* =====================
    DARK MODE
    ===================== */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:           #234C6A;   /* mid-navy — primary surfaces */
-  --md-primary-fg-color--light:    #456882;   /* lighter blue — hover states */
-  --md-primary-fg-color--dark:     #1B3C53;   /* deep navy — depth */
-  --md-accent-fg-color:            #89B8CE;   /* lightened blue — readable on dark */
-  --md-default-bg-color:           #131c24;   /* very dark navy-tinted black */
-  --md-default-fg-color:           #e6e2dd;   /* warm off-white body text */
-  --md-default-fg-color--light:    #8aaabb;   /* muted blue-grey for secondary text */
-  --md-default-fg-color--lightest: #1e2d38;   /* dark blue-tinted — borders/dividers */
-  --md-code-bg-color:              #192430;   /* dark navy — code blocks */
+  --md-default-bg-color:           #141413;
+  --md-default-fg-color:           #E8E6E1;
+  --md-default-fg-color--light:    #9A9890;
+  --md-default-fg-color--lightest: #2A2A27;
+  /* Teal is primary — lighter for readability on dark bg */
+  --md-primary-fg-color:           #5BA89E;
+  --md-primary-fg-color--light:    #7BBFB6;
+  --md-primary-fg-color--dark:     #4A8F85;
+  /* Blue is accent/secondary */
+  --md-accent-fg-color:            #6DA3D4;
+  --md-code-bg-color:              #1C1C1A;
+  --rv-link:                       #5BA89E;   /* teal — content links */
+  --rv-primary:                    #5BA89E;   /* teal — buttons, key chrome */
+  --rv-secondary:                  #6DA3D4;   /* blue — hover, secondary accents */
 }
 
-/* Force header colour */
+/* Deep teal header for dark mode — teal-dominant across both modes */
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
-  background-color: #1B3C53;
+  background-color: #132926;
 }
 
-/* Fix all resting link colours in dark mode */
+/* Dark mode link colors — teal primary, brightens on hover */
 [data-md-color-scheme="slate"] .md-content a:not(.md-button),
 [data-md-color-scheme="slate"] .md-post__title a,
 [data-md-color-scheme="slate"] .md-post__meta a,
 [data-md-color-scheme="slate"] .md-nav__link,
 [data-md-color-scheme="slate"] .md-tags a {
-  color: #89B8CE;
+  color: #5BA89E;
 }
 
-/* Keep hover slightly brighter */
 [data-md-color-scheme="slate"] .md-content a:not(.md-button):hover,
 [data-md-color-scheme="slate"] .md-post__title a:hover {
-  color: #aacfdf;
+  color: #7BBFB6;
+}
+
+/* Dark mode — header text/icons need to read on deep teal bg */
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header .md-icon,
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* =====================
-   COMPONENT STYLES
+   LINK STYLING — editorial underlines
+   ===================== */
+.md-content a:not(.md-button):not(.headerlink):not(.md-post__action a) {
+  text-decoration: underline;
+  text-decoration-color: var(--rv-link);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
+}
+
+.md-content a:not(.md-button):not(.headerlink):hover {
+  text-decoration-color: var(--rv-secondary);
+}
+
+/* =====================
+   BUTTONS
+   ===================== */
+.md-button--primary {
+  background-color: var(--rv-primary) !important;
+  border-color: var(--rv-primary) !important;
+  color: #fff !important;
+}
+
+/* =====================
+   MICRO-INTERACTIONS
+   ===================== */
+
+/* Global transition baseline */
+.md-nav__link,
+.md-tabs__link,
+.md-content a,
+.md-button {
+  transition: all 0.2s ease;
+}
+
+/* Header autohide smoothing */
+.md-header {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Nav tab animated underline */
+.md-tabs__link {
+  position: relative;
+}
+
+.md-tabs__link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.75);
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.md-tabs__link:hover::after,
+.md-tabs__link--active::after {
+  transform: scaleX(1);
+}
+
+/* Button hover lift */
+.md-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px color-mix(in oklch, var(--rv-primary) 35%, transparent);
+}
+
+/* Blog post card hover */
+.md-post--excerpt {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.md-post--excerpt:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* =====================
+   SCROLL ANIMATIONS — Progressive Enhancement
+   ===================== */
+
+/* Reading progress bar (CSS scroll-driven) */
+@supports (animation-timeline: scroll()) {
+  .md-content::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--rv-primary), var(--rv-secondary));
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: rv-progress linear;
+    animation-timeline: scroll();
+    z-index: 999;
+    pointer-events: none;
+  }
+
+  @keyframes rv-progress {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+}
+
+/* JS fallback progress bar */
+.rv-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--rv-primary), var(--rv-secondary));
+  transform-origin: left;
+  transform: scaleX(0);
+  z-index: 999;
+  pointer-events: none;
+}
+
+/* Fade-in on scroll (CSS view timeline) */
+@supports (animation-timeline: view()) {
+  .md-typeset > h2,
+  .md-typeset > h3,
+  .md-typeset > p,
+  .md-typeset > ul,
+  .md-typeset > ol,
+  .md-typeset > .admonition,
+  .md-typeset > details,
+  .md-typeset > .highlight {
+    animation: rv-fade-up 0.5s ease both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 30%;
+  }
+
+  @keyframes rv-fade-up {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* =====================
+   PAGE TRANSITIONS
+   ===================== */
+.md-content {
+  animation: rv-fade-in 0.3s ease;
+}
+
+@keyframes rv-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =====================
+   COMPONENT POLISH
+   ===================== */
+
+/* Blog post excerpts on index */
+.md-post--excerpt {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.md-post--excerpt:hover {
+  border-color: var(--rv-link);
+}
+
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-left-width: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.md-typeset .admonition-title,
+.md-typeset details summary {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Code blocks */
+.md-typeset .highlight {
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+  font-size: 0.88em;
+}
+
+/* Blockquotes — editorial */
+.md-typeset blockquote {
+  border-left: 3px solid var(--rv-link);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: transparent;
+  font-style: italic;
+  font-size: 1.05em;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset blockquote p:first-child {
+  margin-top: 0;
+}
+
+.md-typeset blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Horizontal rules — short centered teal dash */
+.md-content hr {
+  margin: 3rem auto;
+  border: none;
+  width: 60px;
+  height: 2px;
+  background: var(--rv-link);
+  opacity: 0.5;
+}
+
+/* Footer separator */
+.md-footer {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Bold active sidebar links */
+.md-nav__link--active {
+  font-weight: 700;
+}
+
+/* =====================
+   HOMEPAGE STYLES
+   ===================== */
+
+/* Intro text — larger, muted */
+.rv-intro-text {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color--light);
+  max-width: 680px;
+}
+
+/* Popular posts — card-like list items */
+.md-content > .md-typeset h2#popular-posts + ul {
+  list-style: none;
+  padding: 0;
+}
+
+.md-content > .md-typeset h2#popular-posts + ul li {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.md-content > .md-typeset h2#popular-posts + ul li:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-color: var(--rv-link);
+}
+
+/* =====================
+   EXISTING COMPONENT STYLES (preserved)
    ===================== */
 
 /* Hero stats */
@@ -122,7 +440,7 @@ body {
   background: var(--md-code-bg-color);
   border-radius: 8px;
   padding: 1.5rem;
-  border-left: 3px solid var(--md-primary-fg-color);
+  border-left: 3px solid var(--rv-link);
 }
 
 .testimonial-card .quote {
@@ -166,16 +484,4 @@ body {
 
 .social-links a {
   text-decoration: none;
-}
-
-/* Horizontal rule styling */
-.md-content hr {
-  margin: 2.5rem 0;
-  border: none;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-}
-
-/* Bold active sidebar links */
-.md-nav__link--active {
-  font-weight: 700;
 }

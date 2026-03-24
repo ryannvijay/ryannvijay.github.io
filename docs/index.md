@@ -4,9 +4,9 @@ description: Ryan Vijay. Analytics and AI leader writing about what actually wor
 
 # Hi, I'm Ryan
 
-I'm an AI and Analytics Manager who has spent 15 years turning data into business outcomes across banking, insurance, utilities, engineering, and financial services.
+<p class="rv-intro-text">I'm an AI and Analytics Manager who has spent 15 years turning data into business outcomes across banking, insurance, utilities, engineering, and financial services.</p>
 
-I write about AI adoption, analytics leadership, and the practical side of building with data and AI in enterprise environments. No hype, just what I've learnt from doing the work.
+<p class="rv-intro-text">I write about AI adoption, analytics leadership, and the practical side of building with data and AI in enterprise environments. No hype, just what I've learnt from doing the work.</p>
 
 [:fontawesome-brands-linkedin: Connect on LinkedIn](https://linkedin.com/in/ryan-vijay){.md-button .md-button--primary}
 
