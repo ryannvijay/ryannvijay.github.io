@@ -8,7 +8,7 @@ My career started in a place you probably wouldn't expect for someone in AI and 
 
 That pull eventually led me to a Master of Business Analytics at Melbourne Business School in 2018, where I got my first proper introduction to machine learning. It clicked. I could see how these techniques could create real business impact, not just academic interest.
 
-Over 15 years I've worked across banking, insurance, water utilities, engineering consulting, and automotive financial services. I've led analytics teams, built data platforms, and delivered outcomes like a 30% NPS uplift through real-time customer dashboards and a 60–70% reduction in data pipeline build time through cloud migration. When ChatGPT launched in late 2022, I started building with generative AI. I run AI enablement programmes, build RAG systems, and develop agentic workflows with Claude Code, both in my day job at BMW Financial Services and in personal projects.
+Over 15 years I've worked across banking, insurance, water utilities, engineering consulting, and automotive financial services. I've led analytics teams, built data platforms, and delivered outcomes like a 30% NPS uplift through real-time customer dashboards and a 60-70% reduction in data pipeline build time through cloud migration. When ChatGPT launched in late 2022, I started building with generative AI. I run AI enablement programmes, build RAG systems, and develop agentic workflows with Claude Code, both in my day job at BMW Financial Services and in personal projects.
 
 I write about what I learn along the way: AI adoption, analytics leadership, and the practical side of building with data in enterprise environments. If any of it is useful to you, [connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay).
 
