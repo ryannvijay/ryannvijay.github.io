@@ -4,7 +4,7 @@ description: Ryan Vijay. AI and Analytics Manager with 15 years of experience bu
 
 # Ryan Vijay
 
-**AI and Analytics Manager | Building Growth and Efficiency through AI, Automation and Analytics**
+**AI and Analytics Manager | Driving Growth and Efficiency**
 
 [:material-email: ryannvijay@gmail.com](mailto:ryannvijay@gmail.com) | [:fontawesome-brands-linkedin: ryan-vijay](https://linkedin.com/in/ryan-vijay)
 
@@ -87,11 +87,11 @@ I first encountered AI during my Master of Business Analytics in 2018, where I l
 
 ## Education
 
-**Melbourne Business School, University of Melbourne**
-Master of Business Analytics, 2018
+**Melbourne Business School, University of Melbourne**<br>
+Master of Business Analytics, 2018<br>
 Subjects include AI, ML and Data Science for Business Applications
 
-**National University of Singapore**
+**National University of Singapore**<br>
 Bachelor of Chemical Engineering, 2011
 
 ---

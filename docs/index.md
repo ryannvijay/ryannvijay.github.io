@@ -4,9 +4,9 @@ description: Ryan Vijay. Analytics and AI leader writing about what actually wor
 
 # Hi, I'm Ryan
 
-<p class="rv-intro-text">I'm an AI and Analytics Manager who has spent 15 years turning data into business outcomes across banking, insurance, utilities, engineering, and financial services. Results include a 30% NPS uplift through real-time customer dashboards, 60–70% faster data pipeline builds through cloud migration, and 30–40% efficiency gains through AI automation.</p>
+<p class="rv-intro-text">I'm an AI and Analytics Manager who has spent 15 years turning data into business outcomes across banking, insurance, utilities, and financial services. Results include a 30% NPS uplift through real-time customer dashboards, 60-70% faster data pipeline builds through cloud migration, and 30-40% efficiency gains through AI automation.</p>
 
-<p class="rv-intro-text">I write about AI adoption, analytics leadership, and the practical side of building with data and AI in enterprise environments. No hype, just what I've learnt from doing the work.</p>
+<p class="rv-intro-text">I write about AI adoption, Analytics leadership, and the practical side of building with data and AI in enterprise environments. No hype, just what I've learnt from doing the work.</p>
 
 [:fontawesome-brands-linkedin: Connect on LinkedIn](https://linkedin.com/in/ryan-vijay){.md-button .md-button--primary}
 

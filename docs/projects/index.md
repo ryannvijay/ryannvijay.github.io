@@ -1,6 +1,6 @@
 # Projects
 
-A selection of projects from my work at BMW Financial Services, where I lead analytics initiatives, drive AI adoption, and build data foundations that deliver measurable business outcomes.
+A selection of projects from my work at BMW Financial Services, where I lead Analytics initiatives, drive AI adoption, and build data foundations that deliver measurable business outcomes.
 
 <div class="grid cards" markdown>
 
