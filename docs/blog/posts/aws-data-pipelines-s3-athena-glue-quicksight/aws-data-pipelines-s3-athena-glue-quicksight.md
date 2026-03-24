@@ -5,7 +5,7 @@ categories:
   - Data Strategy
   - AI Tooling
 comments: true
-date: 2025-12-20
+date: 2025-12-10
 description: Build serverless data pipelines in AWS using S3, Glue, Athena, and QuickSight without managing infrastructure or provisioning servers.
 draft: false
 slug: aws-data-pipelines-s3-athena-glue-quicksight

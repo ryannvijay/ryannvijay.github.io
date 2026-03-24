@@ -16,7 +16,7 @@ I'm an AI and Analytics Manager with 15 years of experience across banking, insu
 
 At BMW Financial Services, I lead analytics initiatives end-to-end: from running discovery workshops with senior leaders through to solution design, delivery, and organisation-wide adoption. Recent work has delivered 30-40% efficiency improvements, a 30% NPS uplift, and 60-70% faster cloud migration through AI-assisted workflows.
 
-I first encountered AI during my Master of Business Analytics in 2018, where I learnt the foundations of machine learning. Since then I've applied ML across several roles and seen firsthand how it creates business impact. When ChatGPT launched in 2022, I started exploring generative AI and haven't stopped: deploying AI workflows professionally and building personal projects with Claude Code, RAG systems, and agentic AI.
+I first encountered AI during my Master of Business Analytics in 2018, where I learnt the foundations of machine learning. Since then I've applied ML across several roles and seen firsthand how it creates business impact. When ChatGPT launched in 2022, I started building with generative AI. I run AI enablement programmes professionally and build personal projects with Claude Code, RAG systems, and agentic AI.
 
 ---
 
@@ -35,10 +35,10 @@ I first encountered AI during my Master of Business Analytics in 2018, where I l
 
 **Jan 2023 – Present | Melbourne, Australia**
 
-- Developed and executed AI and Analytics solutions aligned with business objectives and customer value propositions.
+- Developed and delivered AI and Analytics solutions that improved decision-making speed and customer outcomes across all business functions.
 - Led discovery workshops with functional leaders to identify Analytics opportunities and co-create implementation roadmaps.
-- Built robust business cases to demonstrate ROI of analytics initiatives.
-- Led cross-functional teams of data scientists, analysts, and engineers to deliver solutions across all department functions.
+- Built business cases to demonstrate ROI of analytics initiatives.
+- Led cross-functional teams of data scientists, analysts, and engineers, delivering multiple solutions from discovery through to organisation-wide adoption.
 - Managed stakeholder communications, presenting analytics insights and solution recommendations to C-level executives.
 - Championed AI adoption across the organisation by designing workshops, building a champion network, and translating technical concepts into practical use cases that improved AI literacy.
 - Led initiatives for automation solutions across departments, delivering 30-40% efficiency improvements and cost savings.
@@ -99,8 +99,8 @@ Bachelor of Chemical Engineering, 2011
 ## Certifications
 
 - **Microsoft Copilot Studio** - The Copilot Studio Masterclass
-- **AI Engineer MLOps Track:** Deploy Gen AI and Agentic AI at Scale
 - **AI Engineer Core Track:** LLM Engineering, RAG, Agents
+- **Chartered Financial Analyst:** Level 1
 
 ---
 

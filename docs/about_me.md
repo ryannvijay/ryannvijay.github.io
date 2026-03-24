@@ -4,11 +4,11 @@ description: About Ryan Vijay. Analytics and AI leader sharing what works in ent
 
 # About Me
 
-My career started in a place you probably wouldn't expect for someone in analytics: processing corporate actions trades at a bank in Singapore, then working as a chemical engineer at a research centre in Brisbane. But even in those early roles, I was drawn to the same thing: using data and mathematical modelling to make better decisions.
+My career started in a place you probably wouldn't expect for someone in AI and Analytics: processing corporate actions trades at a bank in Singapore, then working as a chemical engineer at a research centre in Brisbane. But even in those early roles, I was drawn to the same thing: using data and mathematical modelling to make better decisions.
 
 That pull eventually led me to a Master of Business Analytics at Melbourne Business School in 2018, where I got my first proper introduction to machine learning. It clicked. I could see how these techniques could create real business impact, not just academic interest.
 
-Over 15 years I've worked across banking, insurance, water utilities, engineering consulting, and automotive financial services. I've led analytics teams, built data foundations, and helped organisations make sense of their data. When ChatGPT launched in late 2022, I started exploring generative AI seriously. I haven't stopped since. Today I build with Claude Code, RAG systems, and agentic AI workflows, both in my day job at BMW Financial Services and in personal projects.
+Over 15 years I've worked across banking, insurance, water utilities, engineering consulting, and automotive financial services. I've led analytics teams, built data platforms, and delivered outcomes like a 30% NPS uplift through real-time customer dashboards and a 60–70% reduction in data pipeline build time through cloud migration. When ChatGPT launched in late 2022, I started building with generative AI. I run AI enablement programmes, build RAG systems, and develop agentic workflows with Claude Code, both in my day job at BMW Financial Services and in personal projects.
 
 I write about what I learn along the way: AI adoption, analytics leadership, and the practical side of building with data in enterprise environments. If any of it is useful to you, [connect with me on LinkedIn](https://linkedin.com/in/ryan-vijay).
 
@@ -23,7 +23,7 @@ A user manual, of sorts. How to work with me effectively, and what to expect.
 ### What I Value
 
 - **Constant learning and growth** - I'm driven by the need to learn continuously. I expect the same from my team.
-- **Move fast and break things** - Execute fast. If you're wrong, we can fix it later. Don't wait for approval.
+- **Bias to action** - Execute fast. A wrong decision you can learn from beats analysis paralysis.
 - **Direct communication** - Tell me the problem and tell me what you need. Skip the preamble. I'll do the same for you.
 - **Health first** - I protect time for exercise and recovery. Sustainable pace beats burnout sprints, and I encourage my team to do the same.
 - **Take ownership** - Don't wait to be told. See a problem? Fix it. See an opportunity? Raise it. Own the outcome, not just your task.

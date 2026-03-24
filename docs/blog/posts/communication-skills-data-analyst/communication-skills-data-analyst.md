@@ -5,7 +5,7 @@ categories:
   - Analytics Leadership
   - Career and Growth
 comments: true
-date: 2025-12-10
+date: 2025-12-20
 description: Communication is 50% of the job in data roles. Here are the four
   channels and four practical skills every data analyst needs to master.
 draft: false

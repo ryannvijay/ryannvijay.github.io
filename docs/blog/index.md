@@ -4,7 +4,7 @@ categories:
   - AI
   - Automation
 comments: true
-description: Practical writing on AI adoption, analytics leadership, and building with data in enterprise environments.
+description: Practical takes on AI adoption, analytics leadership, and what actually works when building with data in enterprise environments.
 tags:
   - AI
   - analytics
