@@ -66,7 +66,7 @@ Reps walked into every conversation with context. Outreach became personalised a
 
 **The build:** n8n orchestrating CRM data, web enrichment via API, and an LLM generating the call brief. Output pushed to the rep's inbox or Salesforce activity record before the call.
 
-![alt text](n8n-outreach.JPG)
+![alt text](n8n-outreach-1.JPG)
 
 ### Sales leaders who steer daily, not monthly
 
