@@ -90,7 +90,7 @@ Customer-facing reps get asked product questions, policy questions, and pricing 
 
 The forward-looking solution: a knowledge assistant that reps can query in real time during calls. Instead of dumping raw documents into an LLM (which gives unreliable answers on large knowledge bases), you index documents with structured summaries and section references so the AI knows *where* to look before it answers.
 
-**The build:** This is a RAG problem, but the naive approach (chunk everything, embed it, hope for the best) breaks on large, complex knowledge bases. The smarter approach is structured indexing. Buildable with [Claude Code's](https://ryannvijay.github.io/blog/claude-code-data-analysts-10-workflows/) long context window or a vector store like Pinecone behind an n8n workflow.
+**The build:** This is a RAG problem, but the naive approach (chunk everything, embed it, hope for the best) breaks on large, complex knowledge bases. The smarter approach is structured indexing. Buildable with Claude Cowork knowledge retrieval system or a RAG system using a vector store like Pinecone behind an n8n workflow.
 
 ## The Hard Part Isn't Building. It's Adoption.
 
