@@ -64,6 +64,8 @@ Reps walked into every conversation with context. Outreach became personalised a
 
 **The build:** n8n orchestrating CRM data, web enrichment via API, and an LLM generating the call brief. Output pushed to the rep's inbox or Salesforce activity record before the call.
 
+![alt text](n8n-outreach.JPG)
+
 ### Sales leaders who steer daily, not monthly
 
 Sales managers needed performance data to steer their teams. But the data lived behind dashboards, filters, and charts that most managers didn't touch until the monthly review.
@@ -73,6 +75,8 @@ The fix: a chat agent that sits on top of the performance data. A manager asks "
 The data didn't change. The access pattern did. Managers started steering daily instead of monthly. Underperformance got caught earlier.
 
 **The build:** Claude with a Salesforce integration, or [Claude Cowork](https://ryannvijay.github.io/blog/claude-cowork-automates-excel-powerpoint/) deployed org-wide so every AE, BDR, and sales manager has a conversational interface to their CRM and pipeline data. No new tool to learn. Just ask questions in natural language.
+
+![alt text](cowork-sales-annot.jpg)
 
 ### Funnel visibility that changed the offer strategy
 
