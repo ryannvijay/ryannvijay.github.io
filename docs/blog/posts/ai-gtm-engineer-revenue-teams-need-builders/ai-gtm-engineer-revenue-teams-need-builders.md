@@ -42,7 +42,7 @@ Traditional rev ops optimises processes and configures existing tools. An AI GTM
 
 They speak both languages. That's what makes the role work.
 
-## Why the Gap Exists (and Why It's Not Your Fault)
+## Why the Gap Exists
 
 Most AI tools fail to land in sales teams for a structural reason. They're built by engineers who have never navigated a CRM under pressure, or they're bought by revenue leaders who don't have visibility into what's technically possible.
 
