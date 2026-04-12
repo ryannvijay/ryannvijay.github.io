@@ -24,6 +24,8 @@ tags:
 
 **TL;DR:** Revenue teams have more AI tools than ever. The opportunity now isn't buying more; it's wiring them into the actual sales motion. The AI GTM Engineer is a new kind of role that sits inside the revenue org, builds custom AI systems for reps and managers, and drives adoption until the tools stick. Here's what that looks like in practice, with four real examples.
 
+![alt text](ai-gtm-eng-image.jpg)
+
 <!-- more -->
 
 The AI tools are there. Revenue teams have access to more intelligent software than at any point in history. And yet, for most sales orgs, the gap between what these tools *can* do and what reps *actually* use day-to-day remains wide open.

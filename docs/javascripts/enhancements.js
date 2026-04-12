@@ -1,58 +1,55 @@
 // =====================
 // IMAGE LIGHTBOX
 // =====================
-(function () {
-  // Build the lightbox DOM once
-  const overlay = document.createElement("div");
-  overlay.className = "rv-lightbox";
+document$.subscribe(() => {
+  // Build the overlay DOM once; persist across MkDocs instant navigations
+  let overlay = document.getElementById("rv-lightbox");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.id = "rv-lightbox";
+    overlay.className = "rv-lightbox";
 
-  const closeBtn = document.createElement("button");
-  closeBtn.className = "rv-lightbox__close";
-  closeBtn.setAttribute("aria-label", "Close image");
-  closeBtn.innerHTML = "&times;";
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "rv-lightbox__close";
+    closeBtn.setAttribute("aria-label", "Close image");
+    closeBtn.innerHTML = "&times;";
 
-  const img = document.createElement("img");
-  img.setAttribute("alt", "");
+    const lbImg = document.createElement("img");
+    lbImg.setAttribute("alt", "");
 
-  overlay.appendChild(closeBtn);
-  overlay.appendChild(img);
-  document.body.appendChild(overlay);
+    overlay.appendChild(closeBtn);
+    overlay.appendChild(lbImg);
+    document.body.appendChild(overlay);
 
-  function open(src, alt) {
-    img.src = src;
-    img.alt = alt || "";
+    function closeLightbox() {
+      overlay.classList.remove("is-open");
+      document.body.style.overflow = "";
+      setTimeout(() => { if (!overlay.classList.contains("is-open")) lbImg.src = ""; }, 250);
+    }
+
+    overlay.addEventListener("click", (e) => { if (e.target !== lbImg) closeLightbox(); });
+    closeBtn.addEventListener("click", closeLightbox);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("is-open")) closeLightbox();
+    });
+  }
+
+  const lbImg = overlay.querySelector("img");
+
+  function openLightbox(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || "";
     overlay.classList.add("is-open");
     document.body.style.overflow = "hidden";
   }
 
-  function close() {
-    overlay.classList.remove("is-open");
-    document.body.style.overflow = "";
-    // Clear src after transition so the old image doesn't flash on next open
-    setTimeout(() => { if (!overlay.classList.contains("is-open")) img.src = ""; }, 250);
-  }
-
-  // Close on backdrop click (not on the image itself)
-  overlay.addEventListener("click", (e) => {
-    if (e.target !== img) close();
+  // Wire up images on every page navigation
+  document.querySelectorAll(".md-typeset img").forEach((el) => {
+    if (el.dataset.lightboxBound) return;
+    el.dataset.lightboxBound = "1";
+    el.addEventListener("click", () => openLightbox(el.src, el.alt));
   });
-
-  closeBtn.addEventListener("click", close);
-
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && overlay.classList.contains("is-open")) close();
-  });
-
-  // Wire up images on every page navigation (MkDocs instant loading)
-  document$.subscribe(() => {
-    document.querySelectorAll(".md-typeset img").forEach((el) => {
-      // Avoid double-binding
-      if (el.dataset.lightboxBound) return;
-      el.dataset.lightboxBound = "1";
-      el.addEventListener("click", () => open(el.src, el.alt));
-    });
-  });
-})();
+});
 
 // Reading progress bar fallback for browsers without CSS scroll-driven animations
 // Page transition reinforcement for instant loading
