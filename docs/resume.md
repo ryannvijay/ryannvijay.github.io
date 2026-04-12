@@ -12,7 +12,7 @@ description: Ryan Vijay. AI and Analytics Manager with 15 years of experience bu
 
 ## Bio
 
-I'm an AI and Analytics Manager with 15 years of experience across banking, insurance, utilities, engineering consulting, and automotive financial services. I build data roadmaps, lead cross-functional teams, and turn business questions into clear, trusted insight.
+I'm an AI and Analytics Manager with 15 years of experience across banking, insurance, utilities, engineering consulting, and financial services. I build data roadmaps, lead cross-functional teams, and turn business questions into clear, trusted insight.
 
 At BMW Financial Services, I lead analytics initiatives end-to-end: from running discovery workshops with senior leaders through to solution design, delivery, and organisation-wide adoption. Recent work has delivered 30-40% efficiency improvements, a 30% NPS uplift, and 60-70% faster cloud migration through AI-assisted workflows.
 
@@ -25,7 +25,7 @@ I first encountered AI during my Master of Business Analytics in 2018, where I l
 - **AI Adoption and Enablement:** AI implementation, change management, champion network development, stakeholder engagement
 - **Leadership and Stakeholder Engagement:** Team leadership, client relationship building, stakeholder management, executive communication
 - **Analytics:** Marketing and campaign analytics, data-driven insights, performance tracking and KPIs, predictive modelling
-- **Technology Solutions:** LLMs, Microsoft Copilot Studio, Claude Code, OpenAI APIs, n8n, RAG systems and vector databases, Cloud solutions, Python, SQL, Tableau, Power BI, SAS, AWS Athena, AWS Glue
+- **Technology Solutions:** LLMs, Microsoft Copilot Studio, Claude Code, OpenAI APIs, n8n, RAG systems and vector databases, Cloud platforms (AWS/Azure/GCP), Python, SQL, Tableau, Power BI
 
 ---
 
